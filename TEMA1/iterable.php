@@ -1,4 +1,6 @@
 <?php    
+echo "Ejemplos sobre foreach\n";
+echo "----------------------\n";
     //inicialización de un iterable
     //a partir de un array asociativo
     $iterable=array("uno" => 1,
