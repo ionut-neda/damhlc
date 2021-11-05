@@ -1,4 +1,6 @@
 <?php
+echo "Ejemplos sobre clases y objetos\n";
+echo "-------------------------------\n";
     //definición de la clase perro
     class perro{
         function ladra(&$veces){
