@@ -1,4 +1,6 @@
 <?php
+echo "Ejemplos sobre funciones\n";
+echo "------------------------\n";
 //El modo estricto en acción
 declare(strict_types=1);
 
