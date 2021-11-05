@@ -1,4 +1,6 @@
 <?php
+echo "Ejemplos sobre variables\n";
+echo "------------------------\n";
 //variables por referencia
 $foo = 'Bob';                // Asigna el valor 'Bob' a $foo
 $bar = &$foo;                // Referenciar $foo vía $bar.
