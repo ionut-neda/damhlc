@@ -1,4 +1,6 @@
 <?php
+echo "Ejemplos sobre operadores\n";
+echo "-------------------------\n";
 //Asociatividad
 $a = 3 * 3 % 5; // (3 * 3) % 5 = 4
 // la asociatividad del operador ternario difiere de C/C++
