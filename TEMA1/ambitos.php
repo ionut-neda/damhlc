@@ -1,5 +1,6 @@
 <?php
-
+echo "Ejemplos sobre ámbitos de variables\n";
+echo "-----------------------------------\n";
 $a = 1; /* ámbito global */
 
 function test_G()
