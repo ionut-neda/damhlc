@@ -1,4 +1,6 @@
 <?php
+echo "Ejemplos sobre el uso de static\n";
+echo "-------------------------------\n";
 function contar()
 {
     static $a = 0;
