@@ -1,5 +1,6 @@
 <?php
-
+echo "Ejemplos sobre arrays\n";
+echo "---------------------\n";
 //ejemplo de array asociativo
 $array = array(
     "foo" => "bar",
