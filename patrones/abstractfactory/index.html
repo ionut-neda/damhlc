@@ -1,0 +1,54 @@
+<HTML>
+
+<HEAD>
+    <h1>Patrón Abstract Factory</h1>
+</HEAD>
+<BODY>
+    Es un patrón de tipo construcción. La finalidad de este patrón es permitir la creación de objetos de una misma familia o categoría, sin tener que conocer las clases concretas para ello.
+<p>
+En la mayoría de los lenguajes de POO la creación de nuevos objetos de un 
+determinado tipo se realiza con ayuda de un operador y el tipo, por ejemplo 'new Color()' en PHP.
+</p><p>
+La tarea de construcción de un objeto no siempre es sencilla. Por ejemplo, supongamos
+que queremos crear 3 objetos de los tipos: Monitor, Teclado y Torre.
+En PHP una manera de implementar la solución sería la siguiente:
+</p>
+<code>
+    <div>
+class Componente{
+
+}
+</div>
+class Monitor:Componente{
+
+}
+class Teclado:Componente{
+
+}
+class Torre:Componente{
+
+}
+<div>
+function construyeComponente($tipo):Componente{<br>
+    if($tipo=='Monitor')
+        return new Monitor();
+    elseif($tipo=='Teclado')
+        return new Teclado();
+    elseif($tipo=='Torre')
+        return new Torre();
+    return NULL;
+}
+</div>
+$monitor = construyeComponente('Monitor');
+</code>
+<p>Como se puede observar en el ejemplo anterior, no es posible instanciar el tipo de objeto
+a partir del parámetro de la función. Además ante cualquier cambio en la jerarquía de clases
+será necesario reconstruir todo el código.</p>
+<p>Los patrones Abstract Factory, Builder, Factory Method y Prototype, nos sirven para solucionar el problema</p>
+<p>A continuación vamos a desarrollar un ejemplo de implementación del patrón Abstract factory para la creación 
+    de distintos tipos de automóviles y scooters.
+</p>
+<img src="images/absfactory1.jpg"/>
+</BODY>
+
+</HTML>
