@@ -1,0 +1,2 @@
+Patrón Abstract Factory
+La finalidad de este patrón es permitir la creación de objetos de una misma familia o categoría, sin tener que conocer las clases concretas para ello.
